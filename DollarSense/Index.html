@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Dollar$ense (in AngularJS)</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/ejr-custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-app="DollarSenseApp">
+        <div ng-controller="BobController">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <!--<span class="icon-bar"></span>-->
+                        </button>
+                        <a ui-sref="home" class="navbar-brand" title="Dollars and Sense (get it??!!)">$ & &cent;</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a ui-sref="dashboard"  class="main-menu" id="dashboard">Dashboard</a></li>
+                            <li><a ui-sref="accounts"   class="main-menu" id="accounts">Accounts</a></li>
+                            <li><a ui-sref="categories" class="main-menu" id="categories">Categories</a></li>
+                            <li><a ui-sref="households" class="main-menu" id="households">Households</a></li>
+                            <li><a ui-sref="contact"    class="main-menu" id="reconcile">Contact</a></li>
+                            <li><a ui-sref="about"      class="main-menu" id="about">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <!-- Each template is rendered here (similar to @RenderBody()) -->
+            <div ui-view></div>
+        </div>
+    </div>
+    <hr />
+    <footer>
+        <p class="footer-copyright">&copy; 2015 - <a href="https://ejamesr.azurewebsites.net/" target="_blank">Eric J. Ruff</a>
+    </footer>
+
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-resource.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/respond.js"></script>
+
+    <script src="NgApps/DollarSenseApp.js"></script>
+    <script src="NgApps/Config.js"></script>
+    <script src="NgApps/Controllers/FinanceController.js"></script>
+    <script src="NgApps/Services/DboServices.js"></script>
+    <script src="NgApps/Filters/NgFilters.js"></script>
+    <!--<script>
+    $(document).ready(function () {
+        $('div.heading').addClass('col-md-3 col-sm-4 col-xs-4');
+        $('div.selection').addClass('col-md-9 col-sm-8 col-xs-8');
+        $('.main-grp').addClass('col-md-3 col-sm-4 col-xs-10');
+        $('.car-grp').addClass('col-md-9 col-sm-8 col-xs-10');
+        $('#carTabs').tab();
+    });
+    </script>-->
+
+</body>
+</html>

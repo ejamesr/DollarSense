@@ -1,0 +1,8 @@
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\bin\DollarSense.dll.config
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\bin\DollarSense.dll
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\bin\DollarSense.pdb
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\bin\Newtonsoft.Json.dll
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\bin\Newtonsoft.Json.xml
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\obj\Debug\DollarSense.csprojResolveAssemblyReference.cache
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\obj\Debug\DollarSense.dll
+C:\Users\ejame_000\Documents\Bootcamp\Projects\DollarSense\DollarSense\obj\Debug\DollarSense.pdb
